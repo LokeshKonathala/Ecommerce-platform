@@ -71,8 +71,9 @@ $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
     </main>
 
     <footer>
-        <p>&copy; <?= date('Y') ?> Online Store. All rights reserved.</p>
+        <p>&copy; <?= date('Y') ?> Online Store.. All rights reserved.</p>
     </footer>
 
 </body>
 </html>
+
